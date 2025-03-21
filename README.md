@@ -1,54 +1,76 @@
-# Astro Starter Kit: Basics
+# IT Cell Recruitment Landing Page
 
-```sh
-npm create astro@latest -- --template basics
-```
+A responsive landing page built with Astro for recruiting tech volunteers. The page features a spiritual theme with Ma Adya Kali background and modern design elements.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Features
 
-> ð§âð **Seasoned astronaut?** Delete this file. Have fun!
+- 🎨 Responsive design that works on all devices
+- 🖼️ Beautiful background image of Ma Adya Kali
+- 🌈 Custom color scheme with spiritual significance
+- 📱 Mobile-friendly layout
+- 🎯 Clear sections for different aspects of recruitment
+- ✨ Modern, semi-transparent UI elements
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## ð Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+## Project Structure
 
 ```text
 /
-âââ public/
-â   âââ favicon.svg
-âââ src/
-â   âââ components/
-â   â   âââ Card.astro
-â   âââ layouts/
-â   â   âââ Layout.astro
-â   âââ pages/
-â       âââ index.astro
-âââ package.json
+├── public/
+│   ├── MaaAdyaKali_5.png    # Background image
+│   └── sdfsdfsdf.png        # Favicon
+├── src/
+│   ├── components/
+│   │   └── Card.astro       # Reusable card component
+│   ├── layouts/
+│   │   └── Layout.astro     # Main layout template
+│   └── pages/
+│       └── index.astro      # Main landing page
+├── styles.css               # Global styles
+└── package.json            # Project dependencies
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🚀 Getting Started
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+1. Clone this repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and visit: `http://localhost:4321`
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 🛠️ Commands
 
-## ð§ Commands
+| Command                | Action                                     |
+| :-------------------- | :----------------------------------------- |
+| `npm install`         | Install dependencies                       |
+| `npm run dev`         | Start dev server at `localhost:4321`       |
+| `npm run build`       | Build for production to `./dist/`          |
+| `npm run preview`     | Preview production build locally           |
 
-All commands are run from the root of the project, from a terminal:
+## 🎨 Customization
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+The page uses a carefully chosen color scheme:
+- Headers: Saffron (#ff9933)
+- Emphasis Text: Golden (#ffd700)
+- Main Text: White (#ffffff)
+- Background Overlay: Semi-transparent black (rgba(0, 0, 0, 0.75))
 
-## ð Want to learn more?
+To modify the design:
+1. Edit `src/pages/index.astro` for content and component-specific styles
+2. Edit `styles.css` for global styles
+3. Update images in the `public/` directory
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 🔧 Technologies Used
+
+- [Astro](https://astro.build) - Static Site Generator
+- Modern CSS with custom properties
+- Responsive Design principles
+- CSS Grid and Flexbox for layouts
+
+## 📝 License
+
+All rights reserved. This project and its contents are not available for reuse.
