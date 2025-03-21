@@ -1,8 +1,9 @@
 {
-  "name": "@example/basics",
+  "name": "it-cell-recruitment-landing-page",
   "type": "module",
   "version": "0.0.1",
   "private": true,
+  "description": "A spiritual tech recruitment landing page built with Astro",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
