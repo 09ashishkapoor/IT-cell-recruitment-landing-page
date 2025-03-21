@@ -5,6 +5,7 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Join Our Volunteer Team!">
   <head>
     <link rel="icon" href="/public/new-favicon.png" type="image/png">
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
   </head>
   <main>
     <section class="hero">
@@ -42,6 +43,26 @@ import Layout from '../layouts/Layout.astro';
         <li><strong>Chatbot Development:</strong> Designing and building conversational AI interfaces.</li>
       </ul>
       <p>We encourage volunteers to propose innovative automation solutions and to bring your own ideas to the table – let's build something amazing together!</p>
+    </section>
+
+    <section class="application-form">
+      <h2>Apply Now!</h2>
+      <iframe id="JotFormIFrame-0195b9f2d0777e7abba3138ab580695fbb38" 
+        title="Aditi: Enrollment Specialist"
+        onload="window.parent.scrollTo(0,0)" 
+        allowtransparency="true"
+        allow="geolocation; microphone; camera; fullscreen"
+        src="https://agent.jotform.com/0195b9f2d0777e7abba3138ab580695fbb38?embedMode=iframe&background=1&shadow=1"
+        frameborder="0" 
+        style="
+          min-width:100%;
+          max-width:100%;
+          height:688px;
+          border:none;
+          width:100%;
+        " 
+        scrolling="no">
+      </iframe>
     </section>
   </main>
   <footer style="text-align: center;">
@@ -146,4 +167,16 @@ import Layout from '../layouts/Layout.astro';
   .made-with-love {
     text-align: center;
   }
+
+  .application-form {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+  }
 </style>
+
+<script>
+  window.jotformEmbedHandler("iframe[id='JotFormIFrame-0195b9f2d0777e7abba3138ab580695fbb38']",
+    "https://www.jotform.com")
+</script>
